@@ -1,786 +1,719 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veloure Watches | Swiss Watches since 1875</title>
-      <link rel="icon" type="image/jpg" href="../images/frameboxx-vadodara-logo-photoaidcom-cropped.jpg" class="icon">
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="images/logofavicon.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="../css/style.css">
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marcellus&family=Marcellus+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
   <body>
-    <!-- hero section -->
-     <div class="container-fluid hero">
-    <!-- nav section -->
-     <ul class="container-fluid logonav me-auto mb-2 mb-lg-0 mt-2">
-       <div class="logo">
-         <img src="../images/frameboxx-vadodara-logo1-removebg-preview.png" alt="">
-         <h3>VELOURE</h3>
-       </div>
-      </ul>
-    <nav class="navbar navbar-expand-lg text-light">
-  <div class="container-fluid navbox">
-    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0 left">
-        <li class="nav-item"><a class="nav-link" aria-current="page" href="#">WATCHES</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">OUR WORLD</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">BOUTIQUES</a></li>
-      </ul>
-      
-      
-      <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 icons">
-        <li class="nav-item"><a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-regular fa-hand-back-fist"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a></li>
-      </ul>
+    <!-- ============ NAVIGATION ============ -->
+    <header class="navbar" id="siteNav">
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#novelties">Watches</a>
+        <a href="#maison">Our World</a>
+        <a href="#boutique">Boutiques</a>
+      </nav>
+
+      <a href="#" class="logo">
+        <img
+          src="images/frameboxx-vadodara-logo1-removebg-preview.png"
+          alt="Veloure crest"
+        />
+
+        <h1>VELOURE</h1>
+      </a>
+
+      <div class="nav-icons">
+        <a href="#" aria-label="Search"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+        <a href="#" aria-label="Wishlist"
+          ><i class="fa-regular fa-heart"></i
+        ></a>
+        <a href="#" aria-label="Account"><i class="fa-regular fa-user"></i></a>
       </div>
-    </div>
-  </div>
-</nav>
+    </header>
 
-<div class="hero-video">
-  <video autoplay muted loop playsinline height="100%" width="100%">
-    <source src="../images/Untitled design (1).mp4" type="video/mp4">
-  </video>
-</div>
-
-
-
-<div class="hero-content con1 container">
-  <h1>THE INFINITE</h1>
-  <h1>CRAFT OF THE</h1>
-  <h2>ÉTABLISSEURS</h2>
-
-  <p class="mt-4">Timeless crafts, contemporary imagination: the 
-  Établisseurs timepieces carry rare Métiers d'Art into
-  a new era.</p>
-
-  <div class="hero-line"></div>
-
-  <a href="#" class="discover-btn">DISCOVER</a>
-</div>
-
-</div>
-<!-- second slider -->
-  <div class="slider" >
-      <div class="hero-video">
-        <video autoplay muted loop playsinline height="100%" width="100%">
-          <source src="../images/Rolex Watchmaking – What Makes a Rolex a Rolex - ROLEX (1080p, h264).mp4" type="video/mp4">
-        </video>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <video
+        src="images/Untitled design (1).mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+      <div class="hero-text reveal">
+        <h1>THE INFINITE</h1>
+        <h1>CRAFT OF THE</h1>
+        <h2>ÉTABLISSEURS</h2>
+        <p>
+          Timeless crafts, contemporary imagination: the Établisseurs timepieces
+          carry rare métiers d'art into a new era.
+        </p>
+        <hr class="rule" style="margin-left: 0" />
+        <a href="#novelties" class="btn-link">Discover</a>
       </div>
-      <div class="hero-content con2 container">
-  <h1>EXPERIENCE</h1>
-  <h1>UNVEILING THE</h1>
-  <h2>SECRETS OF THE</h2>
-  <h2>WATCHMAKING</h2>
+      <div class="scroll-cue"><span></span>SCROLL</div>
+    </section>
 
-  <p class="mt-4">Explore the world of Haute Horlogerie at the AP Lab
-  Geneva and through immersive Masterclasses, where 
-  creativity, passion and ingenuity converge.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <a href="#" class="discover-btn">DISCOVER MORE</a>
-</div>
-</div>
-<!-- third slider -->
- <div class="slider" >
-      <div class="hero-video">
-        <video autoplay muted loop playsinline height="100%" width="100%">
-          <source src="../images/Speedmaster Moonwatch in 18K Gold The Legacy Continues  OMEGA - OMEGA (1080p, h264).mp4" type="video/mp4">
-        </video>
+    <!-- ============ STORY SLIDE 2 ============ -->
+    <section class="story align-right">
+      <video
+        src="images/Rolex Watchmaking – What Makes a Rolex a Rolex - ROLEX (1080p, h264).mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+      <div class="story-text reveal">
+        <h1>UNVEILING THE</h1>
+        <h2>SECRETS OF WATCHMAKING</h2>
+        <p>
+          Explore the world of Haute Horlogerie at the Veloure Lab Geneva and
+          through immersive masterclasses, where creativity, passion and
+          ingenuity converge.
+        </p>
+        <hr class="rule" style="margin-right: 0; margin-left: auto" />
+        <a href="#" class="btn-link">Discover more</a>
       </div>
-      <div class="hero-content container">
-  <h1>THE COLLECTION</h1>
-  <h1>OF THE RARE</h1>
-  <h2>TIMEPIECES</h2>
+    </section>
 
-  <p class="mt-4">Rare Handcrafts that have been used to decorate timepieces
-  for more than four centuries. The result is exceptional creations -
-  pocket watches, wristwatches and table clocks.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <a href="#" class="discover-btn">DISCOVER</a>
-</div>
-</div>
-<!--------------------------------------------------- collection  --------------------------------------------------->
-<section class="container-fluid collection">
-
-  <div class="section-heading text-center container">
-  <h1>OUR 2026</h1>
-  <h2>NOVELTIES</h2>
-
-  <p class="mt-4">Collection of timepieces that fuse decades of research, innovation and craftsmanship into a rare icons.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE OUR NOVELTIES</a></div>
-</div>
-  <!-- watches -->
-   <div class="watchpieces">
-    <div class="container-fluid watches">
-    <!-- first watch -->
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_galets_V2?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay " >
-        <h5 class="card-title">Établisseurs Galets</h5>
-        <p class="card-text">A sculptural timepiece inspired by the water-polished stones of the Vallée de Joux, shaped around the hand‑finished Calibre 3098.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
+    <!-- ============ STORY SLIDE 3 ============ -->
+    <section class="story align-left">
+      <video
+        src="images/Speedmaster Moonwatch in 18K Gold The Legacy Continues  OMEGA - OMEGA (1080p, h264).mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+      <div class="story-text reveal">
+        <h1>THE COLLECTION</h1>
+        <h1>OF RARE</h1>
+        <h2>TIMEPIECES</h2>
+        <p>
+          Rare handcrafts that have decorated timepieces for more than four
+          centuries, resulting in exceptional creations — pocket watches,
+          wristwatches and table clocks.
         </p>
-      </div> 
-    <h5 class="card-title-body mt-2" style="width: 18rem;">Établisseurs Galets</h5>
-   </div>
-   <!-- second watch -->
-
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_peacock_V2?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Établisseurs Peacock</h5>
-        <p class="card-text">A secret watch that unveils a luminous enamel peacock through a wing-opening automaton powered by Calibre 3098.2.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Établisseurs Peacock</h5>
-   </div>
-   <!-- third watch -->
-    
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_nomade_V2?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Établisseurs Nomade</h5>
-        <p class="card-text">A multifunctional portable creation revealing a sliding stone dial and its fully openworked Calibre 7501.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Établisseurs Nomade</h5>
-   </div>
-   <!-- fourth watch -->
-  
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_01?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">150 Heritage Ultra-complication Universal Calendar</h5>
-        <p class="card-text">This ultra-complicated pocket watch stands as a tribute to rare métiers d’art and the enduring spirit of craftsmanship.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">150 Heritage Ultra-complication Universal Calendar</h5>
-   </div>
-   </div>
-   <!-- second row watches -->
-    <!-- watches -->
-   <div class="container-fluid watches">
-    <!-- first watch -->
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_02?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Neo Frame Jumping Hour</h5>
-        <p class="card-text">Vintage inspiration meets modern ingenuity in the new Neo Frame Jumping Hour.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body mt-2" style="width: 18rem;">Neo Frame Jumping Hour</h5>
-   </div>
-   <!-- second watch -->
-
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_03?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon</h5>
-        <p class="card-text">Showcasing an ethereal flying tourbillon, this complication combines technical sophistication with contemporary contrast.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon</h5>
-   </div>
-   <!-- third watch -->
-    
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_14?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Royal Oak Selfwinding Perpetual Calendar</h5>
-        <p class="card-text">Combining refined aesthetics with technical mastery, this 41 mm Perpetual Calendar is crafted entirely in “Bleu Nuit, Nuage 50” ceramic and powered by Calibre 7138.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Royal Oak Selfwinding Perpetual Calendar</h5>
-   </div>
-   <!-- fourth watch -->
-  
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_04?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Royal Oak Selfwinding Chronograph</h5>
-        <p class="card-text">Adorned with brilliant-cut diamonds, the bezel of this 38 mm Chronograph adds a dazzling accent to a technical milestone, the new Calibre 6401.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Royal Oak Selfwinding Chronograph</h5>
-   </div>
-   </div>
-   <!-- third row -->
-    <!-- watches -->
-   <div class="container-fluid watches">
-    <!-- first watch -->
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_05?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Royal Oak Mini Quartz</h5>
-        <p class="card-text">Jewellery artistry and watchmaking savoir-faire converge in this 23 mm Royal Oak Mini adorned with a mother-of-pearl.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body mt-2" style="width: 18rem;">Royal Oak Mini Quartz</h5>
-   </div>
-   <!-- second watch -->
-
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_06?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Code 11.59 by Audemars Piguet Selfwinding Perpetual Calendar Openworked</h5>
-        <p class="card-text">This timepiece welcomes an openworked perpetual calendar, whose sapphire dial reveals the movement’s mechanical heart.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Code 11.59 by Audemars Piguet Selfwinding Perpetual Calendar Openworked</h5>
-   </div>
-   <!-- third watch -->
-    
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_07?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Royal Oak Selfwinding Perpetual Calendar Openworked</h5>
-        <p class="card-text">Calibre 7139 takes centre stage in this openworked reference combining ergonomic innovation with a striking blend of titanium and Bulk Metallic Glass.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Royal Oak Selfwinding Perpetual Calendar Openworked</h5>
-   </div>
-   <!-- fourth watch -->
-  
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_12?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Royal Oak Offshore Selfwinding Diver</h5>
-        <p class="card-text">This sporty 42 mm reference pairs a deep teal dial with pink gold accents, showcasing the collection’s commitment to creative expression and technical performance.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Royal Oak Offshore Selfwinding Diver</h5>
-   </div>
-   </div>
-</div></div>
-</section>
-<!--------------------------------------------------- showcase --------------------------------------------------->
-<section class="container-fluid showcase">
-  <div class="section-heading text-center container">
-  <h1>CRAFTING TIME</h1>
-  <h2>SINCE 1875</h2>
-
-  <p class="mt-4">Our craftsmanship thrives at the crossroads of tradition and innovation. Guided by the collective expertise of artisans across generations.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE MORE</a></div>
-</div>
-  <!-- showpieces -->
-   <div class="showpieces" data-aos="zoom-out-up" data-aos-duration="3000">
-    <div class="firstrow">
-    <div class="left">
-      <div class="l1"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_img_26665SG.ZZ.D209CR.01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off" alt="" ></div>
-    <div class="l2 mt-2"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off" alt="" ></div>
-    </div>
-    <div class="middle ms-2">
-      <div class="m" ><video autoplay loop muted >
-        <source src="../images/solo watch.mp4" >
-      </video></div>
+        <hr class="rule" style="margin-left: 0" />
+        <a href="#" class="btn-link">Discover more</a>
       </div>
-     <div class="right ms-2">
-      <div class="r1"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off" alt=""></div>
-      <div class="r2 mt-2"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_vert?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off" alt=""></div>
-    </div>
-    
-    </div>
-</div>
-</div>
-</section>
-<!--------------------------------------------------- Watchmaking --------------------------------------------------->
-<section class="container-fluid watchmaking">
-  <div class="row container-fluid">
-    <div class="watchmaking-box col-md-12">
-      <div class="limg col-md-7" ><img src="../images/Yohoo-Museum-by-Aedas_06-2.jpg" alt="" ></div>
-      <!--data-aos="zoom-in-right"data-aos-duration="3000"-->
-      <div class="hero-content con3 container col-md-5">
-<div class="h1box">
-  <h1>MAISON</h1>&nbsp;&nbsp;
-  <h1>HORLOGÉRE</h1>
-</div>
-  
-  <h2>VELOURE</h2>
+    </section>
 
-  <p class="mt-4">Experience our heritage, craftsmanship and connection to the world in the Maison Horlogère Velore
-    which pays tribute to the craftspeople who have made what Velore is today, generation after generation.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <a href="#" class="discover-btn">EXPLORE</a>
-  </div>
-    </div>
-
-    <div class="watchmaking-box col-md-12">
-      <div class="hero-content con4 container col-md-5">
-  <h1>WATCHMAKING</h1>
-  <h2>EXPERIENCES</h2>
-
-  <p class="mt-4">Discover the fascinating universe of Haute Horlogerie through hands‑on experiences that reveal the expertise Velore has honed for generations. Register for an upcoming masterclass and enjoy an immersive watchmaking experience.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <a href="#" class="discover-btn">EXPLORE</a>
-  </div>
-  <div class="rightimg mt-5 col-md-7"  ><img src="../images/masterclasses_img_HP.jpg" alt=""></div>
-  <!-- data-aos="zoom-in-left" data-aos-duration="3000" -->
-  </div>
-  
-</div>
-
-</section>
-<!--------------------------------------------------- Museum --------------------------------------------------->
- <section class="container-fluid museum ">
- <div class="container-fluid">
-  <div class="section-heading text-center container mb-5">
-  <h1>PRESERVING FOR</h1>
-  <h1>THE FUTURE</h1>
-  <h2>THE VELORE MUSEUM</h2>
-
-  <p class="mt-4">Assembling one of the world's most extraordinary watch collections, our Museum showcases our legacy and represents an inexhaustible source of inspiration for our designers and artists.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE</a></div>
-  </div>
-<img src="https://swisswatches-magazine.com/uploads/2023/05/Inside-the-Patek-Philippe-Museum-Exhibition-Rare-Handcrafts.jpg" alt="" style="height: 100%; width: 100%;"  data-aos="zoom-in" data-aos-duration="3000">
-  </div>
-</section>
-<!--------------------------------------------------- Chronicles --------------------------------------------------->
-<section class="container-fluid chronicles">
- <div class="row container-fluid ">
-  <div class="container chr col-md-12">
-  <div class="hero-content con5 container col-md-4">
-  <h1>VELORE</h1>
-  <h2>CHRONICLES</h2>
-
-  <p class="mt-4">Travel back in time and immerse yourself into Velore's universe through enriched articles, technical sheets of models and calibres as well as exclusive anecdotes and archival footages uncovered by our Heritage team.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE MORE</a></div>
-  </div>
-<div class="chrimg col-md-7"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_APChronicles_1920x1129_v2-2?size=2560,0&dpr=off" alt="" ></div>
- <!-- data-aos="zoom-in-up" data-aos-duration="3000" -->
-</div>
-</div>
-</section>
-<!--------------------------------------------------- Services --------------------------------------------------->
-<section class="container-fluid servicessection ">
- <div class="container-fluid serviceswatches">
-  <div class="section-heading text-center container mb-5">
-  <h1>OUR</h1>
-  <h2>SERVICES</h2>
-
-  <p class="mt-4">Our craftsmanship thrives at the crossroads of tradition and innovation. Guided by the collective expertise of artisans across generations.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE MORE</a></div>
-  </div>
-  <div class="servicepieces">
-    <div class="container services">
-    <!-- first watch -->
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_watchbrowser_03?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Book an appointment</h5>
-        <p class="card-text">Experience our collections in person and receive expert watch servicing from our skilled professionals.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
+    <!-- ============ NOVELTIES ============ -->
+    <section class="container" id="novelties">
+      <div class="section-head reveal">
+        <span class="eyebrow">2026 Collection</span>
+        <h1>OUR 2026</h1>
+        <h2>NOVELTIES</h2>
+        <p>
+          A collection of timepieces that fuses decades of research, innovation
+          and craftsmanship into rare icons.
         </p>
-      </div> 
-    <h5 class="card-title-body mt-2" style="width: 18rem;">Book an appointment</h5>
-   </div>
-   <!-- second watch -->
+        <hr class="rule" />
+        <a href="#" class="btn-link">Explore our novelties</a>
+      </div>
 
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_appointment02?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Online service request</h5>
-        <p class="card-text">Fill in the following form to request a service or an official document. In some countries, you can benefit from a complimentary pick-up service for your watch.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Online service request</h5>
-   </div>
-   <!-- third watch -->
-    
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_online_service_request?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Activate your AP Coverage service</h5>
-        <p class="card-text">2-year complimentary service protecting AP watches from burglary and robbery as well as functional damage.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Activate your AP Coverage service</h5>
-   </div>
-   <!-- fourth watch -->
-  
-    <div class="card">
-      <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_APcoverage?size=568,0&fmt=avif-alpha&dpr=off" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Extend your warranty</h5>
-        <p class="card-text">The extension from 2 to 5 years is available for watches purchased within the last 2 years through our authorized network.</p>
-        <p class="card-text">
-          <hr style="width: 105px;" class="fw-bold">
-          <p>Discover more</p>
-        </p>
-      </div> 
-    <h5 class="card-title-body ms-0 text-center mt-2" style="width: 18rem;">Extend your warranty</h5>
-   </div>
-   </div>
-  </div>
-</section>
-<!--------------------------------------------------- Boutique --------------------------------------------------->
-<section class="container-fluid boutiquesection">
- <div class="container-fluid col-md-12 boutique">
-  <div class="boutiqueimg col-md-7"><img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/AP_img_find_boutique_v2?size=2560,0&dpr=off" alt=""></div>
-     <!-- data-aos="zoom-out"  data-aos-duration="3000" -->
-   <div class="hero-content con3 con3bou container col-md-5">
-  <h1>FIND A</h1>
-  <h2>BOUTIQUE</h2>
-
-  <p class="mt-4">We invite you to visit our Veloure Houses and boutiques to explore a variety of Veloure timepieces and receive expert watch servicing from our skilled professionals, by appointment or walk-in.</p>
-  
-
-  <div class="hero-line"></div>
-
-  <div class="discover-btn"><a href="#">EXPLORE ALL BOUTIQUE</a></div>
-  </div>
-</div>
-</section>
-<!--------------------------------------------------- Subscribe --------------------------------------------------->
-
- <div class="footerall">
- <footer class="bg-body-tertiary text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <form action="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-auto mb-4 mb-md-0 box1">
-          <p class="pt-2">
-            <div class="textbox9">
-              <h1>GET THE</h1>
-              <h2>LATEST NEWS</h2>
+      <div class="carousel reveal" data-carousel>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_galets_V2?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Établisseurs Galets watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Établisseurs Galets</h3>
+                    <p>
+                      A sculptural timepiece inspired by the water-polished
+                      stones of the Vallée de Joux, shaped around the
+                      hand-finished Calibre 3098.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Établisseurs Galets</h3>
+              </article>
             </div>
-          </p>
-        </div>
-        <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-md-5 col-12 mb-4 mb-md-0 box2">
-          <!-- Email input -->
-          <div class="textbox9" >
-           <p>Be the first to receive the latest news on our brand, products and upcoming events.</p>
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_peacock_V2?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Établisseurs Peacock watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Établisseurs Peacock</h3>
+                    <p>
+                      A secret watch that unveils a luminous enamel peacock
+                      through a wing-opening automaton powered by Calibre
+                      3098.2.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Établisseurs Peacock</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_nomade_V2?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Établisseurs Nomade watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Établisseurs Nomade</h3>
+                    <p>
+                      A multifunctional portable creation revealing a sliding
+                      stone dial and its fully openworked Calibre 7501.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Établisseurs Nomade</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_02?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Neo Frame Jumping Hour watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Neo Frame Jumping Hour</h3>
+                    <p>
+                      Vintage inspiration meets modern ingenuity in the new Neo
+                      Frame Jumping Hour.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Neo Frame Jumping Hour</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_01?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Heritage Ultra-complication Universal Calendar watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>150 Heritage Ultra-complication</h3>
+                    <p>
+                      This ultra-complicated pocket watch stands as a tribute to
+                      rare métiers d'art and the enduring spirit of
+                      craftsmanship.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">150 Heritage Ultra-complication</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_03?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Selfwinding Flying Tourbillon watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Selfwinding Flying Tourbillon</h3>
+                    <p>
+                      Showcasing an ethereal flying tourbillon, this
+                      complication combines technical sophistication with
+                      contemporary contrast.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Selfwinding Flying Tourbillon</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_14?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Royal Oak Selfwinding Perpetual Calendar watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Selfwinding Perpetual Calendar</h3>
+                    <p>
+                      Refined aesthetics meet technical mastery in this 41mm
+                      Perpetual Calendar, crafted entirely in "Bleu Nuit, Nuage
+                      50" ceramic and powered by Calibre 7138.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Selfwinding Perpetual Calendar</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_04?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Royal Oak Selfwinding Chronograph watch"
+                  />
+                  <div class="card-overlay">
+                    <h3>Selfwinding Chronograph</h3>
+                    <p>
+                      Adorned with brilliant-cut diamonds, the bezel of this
+                      38mm chronograph adds a dazzling accent to a technical
+                      milestone, the new Calibre 6401.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Selfwinding Chronograph</h3>
+              </article>
+            </div>
           </div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-auto mb-4 mb-md-0 box3">
-          <!-- Submit button -->
-          <button data-mdb-ripple-init type="button" class="btn mb-4 subscribe" style="border-radius: 0px;">
-            Subscribe
-          </button>
-        </div>
-        <!--Grid column-->
+        <button class="carousel-arrow prev" aria-label="Previous watch">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="carousel-arrow next" aria-label="Next watch">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <div class="carousel-dots"></div>
       </div>
-      <!--Grid row-->
-    </form>
-  </div>
-  <!-- Grid container -->
-
-  
-</footer>
-<!-- Footer -->
- <div class="upper">
-  <div class="u">
-    <div class="textbox10">
- <h1>VELORE</h1>
- <h2>CHRONICLES</h2>
-  </div>
-  </div>
-  <div class="u">
-    <img src="../images/11-removebg-preview.png" alt="">
-    <div class="textbox11">
-  <h1 class="fw-bold">MAISON </h1>
-  <h1>HORLOGÉRE</h1>
-  <h2>VELOURE</h2>
-  </div>
-  </div>
-  <div class="u">
-    <div class="textbox12">
-       <h2>FOUNDATIONS</h2>
-  <h1 class="fw-bold">VELOURE</h1>
- 
-  </div>
-   </div>
- </div>
-
- <div class="lower col-sm-12">
-  <div class="lowerleft col-sm-6"><a href=""><i class="fa-solid fa-earth-americas"></i>Change language / currency</a></div>
-  <div class="lowerright col-sm-6"><footer class="text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">WATCHES</h5>
-        
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-body">All Watches</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Our Collections</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">New Releases</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Find a Boutique</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">OUR WORLD</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-body">Born in Le Brassus</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Musée Atelier</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">AP Chronicles</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Stay connected</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Services</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-body">Maintenance Services</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Extend your warranty</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Contact us</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">FAQ</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">COMPANY</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-body">Careers</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Press</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Foundations</a>
-          </li>
-          <li>
-            <a href="#!" class="text-body">Sustainability</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-</footer></div>
- </div>
- <div class="lowest col-sm-12">
-  <div class="lleft col-sm-6">
-    <footer>
-  <!-- Grid container -->
-  <div class="container lleft pt-4">
-    <!-- Section: Social media -->
-    <section class="mb-4 lleftcon">
-      <!-- Facebook -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <!-- Github -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
     </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="copyright" >
-    <div class="textbox13 col-sm-6">
-  <small>© 2026 Veloure</small>
-  
-  </div>
-  <!-- Copyright -->
-</footer></div>
-<div class="lright">
-  <div class="u">Terms of Use</div>
-  <div class="u">Privacy Notice</div>
-  <div class="u">Cookie Policy</div>
-  <div class="u">Masterclasses Terms of Sale</div>
-  <div class="u">Accessibility</div>
-</div>
-  </div>
- </div>
- </div>
- <script src="https://cloudflare.com"></script>
-<script src="https://cloudflare.com"></script>
-<script src="script.js"></script>
+    <!-- ============ SHOWCASE: CRAFTING TIME ============ -->
+    <section class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Heritage</span>
+        <h1>CRAFTING TIME</h1>
+        <h2>SINCE 1875</h2>
+        <p>
+          Our craftsmanship thrives at the crossroads of tradition and
+          innovation, guided by the collective expertise of artisans across
+          generations.
+        </p>
+        <hr class="rule" />
+        <a href="#" class="btn-link">Explore more</a>
+      </div>
 
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
- <script>
-  AOS.init();
-</script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <div class="showcase-gallery reveal">
+        <img
+          class="gallery-tall"
+          src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_img_26665SG.ZZ.D209CR.01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off"
+          alt="Watch detail"
+        />
+        <video class="gallery-feature" autoplay loop muted playsinline>
+          <source src="images/solo watch.mp4" type="video/mp4" />
+        </video>
+        <img
+        class="gallery-short"
+          src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off"
+          alt="Campaign still"
+        />
+        <img
+        class="gallery-short"
+          src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off"
+          alt="Campaign still"
+        />
+        
+      </div>
+    </section>
+
+    <!-- ============ MAISON HORLOGÈRE ============ -->
+    <section class="container" id="maison">
+      <div class="split-row reveal">
+        <div class="split-media">
+          <img
+            src="images/Yohoo-Museum-by-Aedas_06-2.jpg"
+            alt="Maison Horlogère Veloure building"
+          />
+        </div>
+        <div class="split-text">
+          <h1>MAISON</h1>
+          <h1>HORLOGÈRE</h1>
+          <h2>VELOURE</h2>
+          <p>
+            Experience our heritage, craftsmanship and connection to the world
+            in the Maison Horlogère Veloure, which pays tribute to the
+            craftspeople who have made what Veloure is today, generation after
+            generation.
+          </p>
+          <hr class="rule" style="margin-left: 0" />
+          <a href="#" class="btn-link">Discover</a>
+        </div>
+      </div>
+
+      <div class="split-row reverse reveal">
+        <div class="split-media">
+          <img
+            src="images/masterclasses_img_HP.jpg"
+            alt="A watchmaking masterclass in progress"
+          />
+        </div>
+        <div class="split-text">
+          <h1>WATCHMAKING</h1>
+          <h2>EXPERIENCES</h2>
+          <p>
+            Discover the fascinating universe of Haute Horlogerie through
+            hands-on experiences that reveal the expertise Veloure has honed for
+            generations. Register for an upcoming masterclass and enjoy an
+            immersive watchmaking experience.
+          </p>
+          <hr class="rule" style="margin-right: 0; margin-left: auto" />
+          <a href="#" class="btn-link">Discover</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MUSEUM ============ -->
+    <section>
+      <div class="section-head reveal">
+        <span class="eyebrow">Heritage</span>
+        <h1>PRESERVING FOR</h1>
+        <h1>THE FUTURE</h1>
+        <h2>THE VELOURE MUSEUM</h2>
+        <p>
+          Assembling one of the world's most extraordinary watch collections,
+          our museum showcases our legacy and represents an inexhaustible source
+          of inspiration for our designers and artists.
+        </p>
+        <hr class="rule" />
+        <a href="#" class="btn-link">Explore more</a>
+      </div>
+      <div class="feature-banner reveal">
+        <img
+          src="images/museums.jpg"
+          alt="Interior of the Veloure museum displaying historic timepieces"
+        />
+      </div>
+    </section>
+
+    <!-- ============ CHRONICLES ============ -->
+    <section class="container">
+      <div class="split-row reveal">
+        <div class="split-text">
+          <h1>VELOURE</h1>
+          <h2>CHRONICLES</h2>
+          <p>
+            Travel back in time and immerse yourself in Veloure's universe
+            through enriched articles, technical sheets of models and calibres,
+            as well as exclusive anecdotes and archival footage uncovered by our
+            heritage team.
+          </p>
+          <hr class="rule" style="margin-left: 0" />
+          <a href="#" class="btn-link">Discover</a>
+        </div>
+        <div class="split-media">
+          <img
+            src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_APChronicles_1920x1129_v2-2?size=2560,0&dpr=off"
+            alt="Archival watchmaking photograph"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Care & Maintenance</span>
+        <h1>OUR</h1>
+        <h2>SERVICES</h2>
+        <p>
+          Our craftsmanship thrives at the crossroads of tradition and
+          innovation, guided by the collective expertise of artisans across
+          generations.
+        </p>
+        <hr class="rule" />
+        <a href="#" class="btn-link">Explore more</a>
+      </div>
+
+      <div class="carousel reveal" data-carousel>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_watchbrowser_03?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="A client booking an appointment at the boutique"
+                  />
+                  <div class="card-overlay">
+                    <h3>Book an appointment</h3>
+                    <p>
+                      Experience our collections in person and receive expert
+                      watch servicing from our skilled professionals.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Book an appointment</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_appointment02?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Online service request form"
+                  />
+                  <div class="card-overlay">
+                    <h3>Online service request</h3>
+                    <p>
+                      Fill in the form to request a service or an official
+                      document. In some countries you can benefit from a
+                      complimentary pick-up service for your watch.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Online service request</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_APcoverage?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Extended warranty service"
+                  />
+                  <div class="card-overlay">
+                    <h3>Extend your warranty</h3>
+                    <p>
+                      The extension from 2 to 5 years is available for watches
+                      purchased within the last 2 years through our authorised
+                      network.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Extend your warranty</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_05?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="A watchmaker personalising a strap and case"
+                  />
+                  <div class="card-overlay">
+                    <h3>Personalise your watch</h3>
+                    <p>
+                      Choose from a curated selection of straps, clasps and
+                      engravings to make your timepiece truly your own.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Personalise your watch</h3>
+              </article>
+            </div>
+
+            <div class="carousel-slide">
+              <article class="watch-card" tabindex="0">
+                <div class="card-media">
+                  <img
+                    src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_online_service_request?size=568,0&fmt=avif-alpha&dpr=off"
+                    alt="Veloure coverage protection service"
+                  />
+                  <div class="card-overlay">
+                    <h3>Activate your Veloure Coverage</h3>
+                    <p>
+                      A 2-year complimentary service protecting Veloure watches
+                      from burglary and robbery as well as functional damage.
+                    </p>
+                    <a href="#" class="btn-link">Discover more</a>
+                  </div>
+                </div>
+                <h3 class="card-caption">Activate your Veloure Coverage</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow prev" aria-label="Previous service">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="carousel-arrow next" aria-label="Next service">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <div class="carousel-dots"></div>
+      </div>
+    </section>
+
+    <!-- ============ BOUTIQUE ============ -->
+    <section class="container" id="boutique">
+      <div class="split-row reverse reveal">
+        <div class="split-media">
+          <img
+            src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/AP_img_find_boutique_v2?size=2560,0&dpr=off"
+            alt="Exterior of a Veloure boutique"
+          />
+        </div>
+        <div class="split-text">
+          <h1>FIND A</h1>
+          <h2>BOUTIQUE</h2>
+          <p>
+            We invite you to visit our Veloure houses and boutiques to explore a
+            variety of Veloure timepieces and receive expert watch servicing
+            from our skilled professionals, by appointment or walk-in.
+          </p>
+          <hr class="rule" style="margin-right: 0; margin-left: auto" />
+          <a href="#" class="btn-link">Explore all boutiques</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter reveal">
+      <div class="container">
+        <div class="newsletter-copy">
+          <h1>GET THE</h1>
+          <h2>LATEST NEWS</h2>
+          <p>
+            Be the first to receive the latest news on our brand, products and
+            upcoming events.
+          </p>
+        </div>
+        <form class="newsletter-form" action="#">
+          <input
+            type="email"
+            placeholder="Your email address"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-columns">
+          <div>
+            <h3>WATCHES</h3>
+            <ul>
+              <li><a href="#">All Watches</a></li>
+              <li><a href="#">Our Collections</a></li>
+              <li><a href="#">New Releases</a></li>
+              <li><a href="#">Find a Boutique</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>OUR WORLD</h3>
+            <ul>
+              <li><a href="#">Born in Le Brassus</a></li>
+              <li><a href="#">Musée Atelier</a></li>
+              <li><a href="#">Veloure Chronicles</a></li>
+              <li><a href="#">Stay Connected</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SERVICES</h3>
+            <ul>
+              <li><a href="#">Maintenance Services</a></li>
+              <li><a href="#">Extend Your Warranty</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>COMPANY</h3>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Foundations</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-brand">
+          <div class="logo">
+            <img
+              src="images/frameboxx-vadodara-logo1-removebg-preview.png"
+              alt="Veloure crest"
+            />
+            <span class="brand-name">VELOURE</span>
+          </div>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <a href="#"
+            ><i class="fa-solid fa-earth-americas"></i>Change language /
+            currency</a
+          >
+          <p>© 2026 Veloure</p>
+          <div class="legal-links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Masterclasses Terms of Sale</a>
+            <a href="#">Accessibility</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
